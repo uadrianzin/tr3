@@ -55,7 +55,7 @@ threads = int(input(" Potencia:"))
 threads = int(input(" Potencia:"))
 threads = int(input(" Potencia:"))
 def run():
-	data = random._urandom(10000)
+	data = random._urandom(1024)
 	i = random.choice(("[*]","[!]","[#]"))
 	while True:
 		try:
